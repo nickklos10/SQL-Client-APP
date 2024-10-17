@@ -4,11 +4,6 @@
 
 This project is designed to create two Java-based GUI applications that interact with a MySQL database via JDBC, focusing on client-server interactions. The first application allows clients to execute SQL commands, while the second is a specialized accountant-level client for querying transaction logs.
 
-- **Course**: CNT 4714 Fall 2024
-- **Assignment Title**: Project 3 – A Two-Tier Client-Server Application
-- **Due Date**: October 20, 2024
-- **Instructor**: Prof. John Doe
-
 ---
 
 ## Table of Contents
