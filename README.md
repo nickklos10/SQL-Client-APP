@@ -4,8 +4,6 @@
 
 This project is designed to create two Java-based GUI applications that interact with a MySQL database via JDBC, focusing on client-server interactions. The first application allows clients to execute SQL commands, while the second is a specialized accountant-level client for querying transaction logs.
 
---- 
-
 ## Table of Contents
 
 1. [Objectives](#objectives)
@@ -16,8 +14,6 @@ This project is designed to create two Java-based GUI applications that interact
     - [Main Client Application](#main-client-application)
     - [Accountant Application](#accountant-application)
 6. [Database Setup](#database-setup)
-7. [Screenshots](#screenshots)
-8. [Deliverables](#deliverables)
 
 ---
 
@@ -101,27 +97,7 @@ The project focuses on developing two-tier Java client-server applications that 
      - `project3app`: Select, insert, update on `operationslog`.
      - `theaccountant`: Select on `operationslog`.
 
----
 
-## Screenshots
-
-1. **Client Application**: Running SQL commands for the `client1` and `client2` users.
-2. **Accountant Application**: Querying transaction logs.
-3. **Error Handling**: Displaying an invalid credentials message.
-
----
-
-## Deliverables
-
-- Source Code Folder: Contains all `.java` files.
-- Screenshots Folder:
-  - `RootCommandsScreenshots`: 17 screenshots from the `project3rootscript.sql`.
-  - `Client1CommandsScreenshots`: 11 screenshots from the `project3client1script.sql`.
-  - `Client2CommandsScreenshots`: 11 screenshots from the `project3client2script.sql`.
-  - `Accountant-OperationsLogScreenshots`: 3 screenshots from the accountant interface.
-  - `CredentialsMismatchScreenshot`: 1 screenshot showing an invalid login attempt.
-  
----
 
 ## Conclusion
 
