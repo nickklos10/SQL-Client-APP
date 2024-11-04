@@ -258,14 +258,10 @@ public class ClientGUI {
             connectionStatusLabel.setForeground(Color.WHITE);
             System.out.println("Successfully connected to: " + dbURL);
         } catch (Exception e) {
-            connectionStatusLabel.setText("Connection Failed");
+            connectionStatusLabel.setText("NOT CONNECTED - User Credentials Do not Match Properties File!");
             connectionStatusLabel.setForeground(Color.RED);
             StringBuilder errorMessage = new StringBuilder("Failed to connect to database: " + e.getMessage() + "\n\n");
             errorMessage.append("Exception type: ").append(e.getClass().getName()).append("\n\n");
-            errorMessage.append("Stack trace:\n");
-            for (StackTraceElement element : e.getStackTrace()) {
-                errorMessage.append(element.toString()).append("\n");
-            }
             JOptionPane.showMessageDialog(frame, errorMessage.toString(), "Connection Error", JOptionPane.ERROR_MESSAGE);
             System.err.println(errorMessage.toString());
         }
